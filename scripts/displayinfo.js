@@ -50,10 +50,13 @@ const petSalon={
    
 
 //display the pet salon info in the footer section of the html (name, address, working hours, etc.)
-document.getElementById("footer-info").innerHTML=<p>`Welcome to ${petSalon.name} in ${petSalon.address.city} ${petSalon.address.state}`. We are located at ${petSalon.address.number} {petSalon.address.street}</p>;
+document.getElementById("footer-info").innerHTML=`<p>Welcome to ${petSalon.name} in ${petSalon.address.city} ${petSalon.address.state} ${petSalon.address.zip}.We are located at ${petSalon.address.number} ${petSalon.address.street}. Our hours of operation are ${petSalon.workingHours.open} ${petSalon.workingHours.close}</p>`;
 
-displaySalonInfo();
+
 function displayPetNames(){
-
-
+    for (let x=0; x <petSalon.pets.length;x++){
+        document.write( `<div>${petSalon.pets[x].name} ${petSalon.pets[x].age} ${petSalon.pets[x].gender} ${petSalon.pets[x].breed} ${petSalon.pets[x].service} ${petSalon.pets[x].ownerName} ${petSalon.pets[x].contactPhone}</div>`)
+    }
+   
 }
+displayPetNames();

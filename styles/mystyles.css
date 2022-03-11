@@ -1,0 +1,37 @@
+/*background color*/
+body{
+    background-color: rgb(86, 216, 86);
+    
+
+}
+/*Happy Pets Luxury Salon words*/
+h1{
+    color:rgb(56, 16, 235);
+    font-style: italic;  
+    
+}
+/*Navigation Bar*/
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+   
+}
+li{
+    display: inline;
+    float:left;
+    
+    
+}
+a{
+    display: block;
+    padding:8px;
+    background-color: aquamarine;
+    text-decoration: none;
+  
+}
+/*Change the background color of hover*/
+li a:hover{
+background-color: white;
+}
