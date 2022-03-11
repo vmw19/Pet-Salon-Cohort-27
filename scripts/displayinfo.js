@@ -12,35 +12,7 @@ const petSalon={
         open:"7:00 am",
         close:"7:00 pm",
     },//Create pets array in the object
-    pets:[
-        {//first pet
-            name:"Scooby",
-            age: 90,
-            gender:"Male",
-            breed:"Dane",
-            service: "Grooming",
-            ownerName:"Shaggy",
-            contactPhone:"111-222-3333"
-        },
-        {//second pet
-            name:"Cujo",
-            age: 45,
-            gender:"Female",
-            breed:"Pit",
-            service: "Nails Trim",
-            ownerName:"Kaleb",
-            contactPhone:"222-222-3333"
-        },
-        {//third pet
-            name:"Tiny",
-            age: 21,
-            gender:"Female",
-            breed:"Poodle",
-            service: "Grooming",
-            ownerName:"Joshua",
-            contactPhone:"222-333-3333"
-},
-    ]
+    pets:[]
 }
 // console.log(petSalon.address.zip);
 // console.log(petSalon.pets.length);
@@ -50,7 +22,7 @@ const petSalon={
    
 
 //display the pet salon info in the footer section of the html (name, address, working hours, etc.)
-document.getElementById("footer-info").innerHTML=`<p>Welcome to ${petSalon.name} in ${petSalon.address.city} ${petSalon.address.state} ${petSalon.address.zip}.We are located at ${petSalon.address.number} ${petSalon.address.street}. Our hours of operation are ${petSalon.workingHours.open} ${petSalon.workingHours.close}</p>`;
+//document.getElementById("footer-info").innerHTML=`<p>Welcome to ${petSalon.name} in ${petSalon.address.city} ${petSalon.address.state} ${petSalon.address.zip}.We are located at ${petSalon.address.number} ${petSalon.address.street}. Our hours of operation are ${petSalon.workingHours.open} ${petSalon.workingHours.close}</p>`;
 
 
 function displayPetNames(){
@@ -59,4 +31,4 @@ function displayPetNames(){
     }
    
 }
-displayPetNames();
+//displayPetNames();
