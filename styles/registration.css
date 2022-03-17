@@ -1,0 +1,31 @@
+/*background color for entire page*/
+body{
+    background-color: rgb(86, 216, 86);
+}
+/*Happy Pets Luxury Salon*/
+h1{
+    font-size: 40px;
+    color: rgb(66, 66, 243);
+    background-color: aqua;
+    justify-content: center;
+    text-align: center;
+}
+/*Register a New Pet*/
+h2{font-size: 30px;
+    color: rgb(66, 66, 243);
+    text-decoration-color: aqua;
+    text-shadow: 20px;
+    animation: animate 1.5s linear infinite;
+    text-align: center;
+}
+@keyframes animate{
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity:0;
+    }
+}

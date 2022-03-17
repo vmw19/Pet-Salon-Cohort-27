@@ -8,6 +8,7 @@ body{
 h1{
     color:rgb(56, 16, 235);
     font-style: italic;  
+    text-align: center;
     
 }
 /*Navigation Bar*/
@@ -23,9 +24,14 @@ a{
     padding:8px;
     background-color: aquamarine;
     text-decoration: none;
+    height: max-content;
+    width:max-content;
   
 }
 /*Change the background color of hover*/
 li a:hover{
 background-color: white;
+}
+.bg-color{
+    background-color:yellow;
 }
