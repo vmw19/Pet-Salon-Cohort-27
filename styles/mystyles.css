@@ -1,6 +1,6 @@
 /*background color*/
 body{
-    background-color: rgb(86, 216, 86);
+    background-color: rgb(170, 233, 170);
     
 
 }
@@ -9,15 +9,18 @@ h1{
     color:rgb(56, 16, 235);
     font-style: italic;  
     text-align: center;
+    background-color: aqua;
     
 }
 /*Navigation Bar*/
-ul{
+nav ul{
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     display: flex;
-
+    width:100%;
+    text-align: center;
+    
 }
 a{
     display: block;
@@ -26,12 +29,26 @@ a{
     text-decoration: none;
     height: max-content;
     width:max-content;
-  
 }
 /*Change the background color of hover*/
 li a:hover{
 background-color: white;
 }
+nav{
+    width: 100%;
+}
+
 .bg-color{
     background-color:yellow;
+}
+h2{
+    text-align:center;
+    color:rgb(56, 16, 235);
+
+}
+
+h3{
+    text-align:center;
+    justify-content: center;
+    color:rgb(56, 16, 235);
 }
