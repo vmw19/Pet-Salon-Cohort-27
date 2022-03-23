@@ -11,7 +11,8 @@ h1{
     text-align: center;
 }
 /*Register a New Pet*/
-h2{font-size: 30px;
+h2{
+    font-size: 30px;
     color: rgb(66, 66, 243);
     text-decoration-color: aqua;
     text-shadow: 20px;
